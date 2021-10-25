@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:padding="30dp"
+    android:orientation="vertical"
+    android:background="@drawable/repeat_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Select your preferred category"
+        android:textAllCaps="true"
+        android:textColor="@color/colorWhite"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:fontFamily="@font/montserrat" />
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_gravity="center"
+        android:id="@+id/categoryProfessionalButtonID"
+        app:cardCornerRadius="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="3dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="30dp"
+            android:text="@string/catogory_title_1"
+            android:textAllCaps="true"
+            android:textColor="@color/colorBlack"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/montserrat_bold" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_gravity="center"
+        android:id="@+id/categoryGenaralButtonID"
+        app:cardCornerRadius="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="3dp">
+
+
+        <TextView
+            app:fontFamily="@font/montserrat_bold"
+            android:padding="30dp"
+            android:layout_gravity="center"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/colorBlack"
+            android:textSize="25sp"
+            android:text="@string/catogory_title_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_gravity="center"
+                    android:id="@+id/shareAppButton"
+                    app:cardCornerRadius="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="3dp">
+
+
+                    <TextView
+                        app:fontFamily="@font/montserrat_bold"
+                        android:padding="30dp"
+                        android:layout_gravity="center"
+                        android:textAllCaps="true"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="18dp"
+                        android:text="SHARE APP"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+
+                    android:visibility="gone"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/rateAppButton"
+                    app:cardCornerRadius="20dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="3dp">
+
+
+                    <TextView
+                        app:fontFamily="@font/montserrat_bold"
+                        android:padding="30dp"
+                        android:layout_gravity="center"
+                        android:textAllCaps="true"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="18dp"
+                        android:text="RATE APP"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

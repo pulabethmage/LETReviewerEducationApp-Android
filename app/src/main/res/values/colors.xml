@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3ab4fd</color>
+    <color name="colorPrimaryDark">#3ab4fd</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="colorBlue">#3ab4fd</color>
+    <color name="colorWhite">#fff</color>
+    <color name="colorBlack">#000</color>
+    <color name="colorGray">#585858</color>
+
+    <color name="correctAnsfercolorGreen">#318D36</color>
+    <color name="wrongAnsfercolorGreen">#CF4F4F</color>
+    <color name="defaultAnsfercolorGreen">#F0F0F0</color>
+    <color name="nextButtonColor">#007ac1</color>
+
+
+
+</resources>

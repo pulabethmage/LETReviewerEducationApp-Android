@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">LET Reviewer Prof Ed and Gen Ed</string>
+
+    <string name="catogory_title_1">Professional Education</string>
+    <string name="catogory_title_2">General Education</string>
+
+
+    <!--    Professional Questions and answers-->
+
+    <string name="professional_Q_1">Flordeluna, an education student, was asked by Prof. Cruz to described accurately education. Which of the following statement will Flordeluna most likely choose?</string>
+    <string name="professional_Q_1_A_1">a. A process of individual growth and social development</string>
+    <string name="professional_Q_1_A_2">b. Growth resulting from academic study</string>
+    <string name="professional_Q_1_A_3">c. Acquired basically through the teacher</string>
+    <string name="professional_Q_1_A_4">d. Synonymous to formal schooling</string>
+    <string name="professional_Q_1_CA">a</string>
+
+
+</resources>

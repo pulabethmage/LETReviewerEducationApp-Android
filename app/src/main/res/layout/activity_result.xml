@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/repeat_background"
+    android:padding="35dp"
+    android:gravity="center">
+
+
+    <TextView
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        android:textSize="30dp"
+        android:text="Your Result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp"
+        android:text="You Scored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/resultNumberTV"
+        android:gravity="right"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        android:textSize="30dp"
+        android:text="89"
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="wrap_content"/>
+
+        <TextView
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"
+            android:textSize="30dp"
+            android:text="/"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:gravity="left"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"
+            android:textSize="30dp"
+            android:text="200"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/shareResultWithFriends"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        android:padding="25dp"
+        android:background="@drawable/next_button_background"
+        android:text="share your result with Friends"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+
+</LinearLayout>
